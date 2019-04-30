@@ -1,6 +1,7 @@
+dist: bionic
 language: csharp
 mono: none
-dotnet: 2.1.502
+dotnet: 2.2.105
 script:
  - cd samples/server/petstore/fsharp-giraffe/
  - /bin/sh build.sh
